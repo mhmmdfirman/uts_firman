@@ -1,0 +1,128 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  background-color: #333;
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.crud-form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#crud-form input {
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#crud-form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+#crud-form button:hover {
+  background-color: #555;
+}
+
+#data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#data-table th, #data-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+#data-table th {
+  background-color: #333;
+  color: white;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.product h3 {
+  color: #333;
+}
+
+.product button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.product button:hover {
+  background-color: #555;
+}
+
+#cart {
+  margin-top: 20px;
+}
+
+#cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+#cart-items li {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#total {
+  font-weight: bold;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
